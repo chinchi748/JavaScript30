@@ -1,0 +1,10 @@
+##javascript30-1 underknow keyword note
+
+const宣告變數 宣告後此變數不可改變也不可重新宣告  出自英單 constant:固定
+其他變數宣告:var let
+
+##javascript30-1 course note
+window.addEventListener('keydown',function(){
+    
+})
+監聽(listener)電腦(window)鍵盤(keydown)按下甚麼鍵

@@ -1,0 +1,61 @@
+/* 把背景以底部置中(center bottom)拉伸成滿版(cover)
+cover把圖片拉滿螢幕但可能會有部分超出自動截掉
+contain把背景圖片拉滿螢幕不會但不會超出螢幕 */
+html {
+  font-size: 10px;
+  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;   
+  background-size: cover;
+}
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/* 
+詳情請自行查閱css3 flexbox 
+display:flex後align-items效果才有出來
+justify-content => Make some space around the items of the flexible <div> element
+flex:1 不知道意思
+範例中的效果可以用justify-content: space-around;直接做出來
+*/
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+/* transition 一定要有秒數不然不會有動畫效果出現
+裡面的all不知道幹嘛
+ease為預設還有其他可選 */
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
