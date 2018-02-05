@@ -1,8 +1,10 @@
-##前言
+## 前言
+
 為了練習Javascript及基本github使用
 故而fork網上專案來使用
 以下筆記及範例皆來自於https://github.com/guahsu/JavaScript30
 檔案中保留了範例原檔，guahsu筆記及範本以及一些自己練習的檔案及筆記。
+那就讓我們開始學習吧。
 
 ## JavaScript30
 
