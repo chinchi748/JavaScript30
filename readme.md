@@ -1,4 +1,11 @@
+##前言
+為了練習Javascript及基本github使用
+故而fork網上專案來使用
+以下筆記及範例皆來自於https://github.com/guahsu/JavaScript30
+檔案中保留了範例原檔，guahsu筆記及範本以及一些自己練習的檔案及筆記。
+
 ## JavaScript30
+
 是一個來自加拿大的工程師WES BOS製作的一系列純javascript練習，  
 共有30個主題，每個主題有一個教學影片及範例檔案。  
 >[WES BOS的GitHub](https://github.com/wesbos/JavaScript30)  
